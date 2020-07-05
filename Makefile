@@ -14,4 +14,4 @@ $(TARGET): $(OBJECTS)
 	$(LINK.cc) $(CXX_FLAGS) $^ $(LNK_LIBS) -o $@
 
 clean:
-	rm -f $(OBJS) $(TARGET) *~
+	rm -f $(OBJECTS) $(TARGET) *~
